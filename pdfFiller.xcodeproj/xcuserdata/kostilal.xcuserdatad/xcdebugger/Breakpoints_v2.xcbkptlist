@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8287585B-D51C-463C-8DA1-86620AAFF4EC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B127FEBA-81F4-4781-8CE9-0DFA3DBE11F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pdfFiller/Sources/Modules/Services/DocumentDetectorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "DocumentDetectorService"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B127FEBA-81F4-4781-8CE9-0DFA3DBE11F8 - 8150efb3f9862d75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in static pdfFiller.DocumentDetectorService.detectDocument(with: __C.UIImage, size: __C.CGSize, complition: (Swift.Result&lt;pdfFiller.CropperModels.CroppedPoints, pdfFiller.BaseError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "pdfFiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/IAmHappy/TechTasks/pdfFiller/pdfFiller/Sources/Modules/Services/DocumentDetectorService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "B127FEBA-81F4-4781-8CE9-0DFA3DBE11F8 - 8150efb3f9862d75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in static pdfFiller.DocumentDetectorService.detectDocument(with: __C.UIImage, size: __C.CGSize, complition: (Swift.Result&lt;pdfFiller.CropperModels.CroppedPoints, pdfFiller.BaseError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "pdfFiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/IAmHappy/TechTasks/pdfFiller/pdfFiller/Sources/Modules/Services/DocumentDetectorService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "348">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC551ECC-558B-4A44-A5C2-C28B52027D6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pdfFiller/Sources/Modules/Services/DocumentDetectorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "DocumentDetectorService"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51E6AE84-12C2-4B32-B49E-39E39BDE4C27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pdfFiller/Sources/Modules/Services/DocumentDetectorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "DocumentDetectorService"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F23EC33A-75AC-4B73-9758-11CE55A21DC7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pdfFiller/Sources/Modules/Routers/AppRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "showInitialFlow()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2C5C593-66E5-401F-9064-0612C4202EF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pdfFiller/Sources/Modules/Cropper/CropperController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "show(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D024140A-9F10-4287-8AF3-F11BCFAFBA0F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pdfFiller/Sources/Modules/Cropper/CropperController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "show(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9BF2690-FE5B-43E9-AC8F-09BC6F82D2D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pdfFiller/Sources/Modules/Cropper/CropperPeresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "imageCropped(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

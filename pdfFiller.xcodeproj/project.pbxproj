@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C412957D2823F3A2003840A9 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412957C2823F3A2003840A9 /* AppRouter.swift */; };
+		C41295822823F895003840A9 /* CropResultPeresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412957E2823F895003840A9 /* CropResultPeresenter.swift */; };
+		C41295832823F895003840A9 /* CropResultController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C412957F2823F895003840A9 /* CropResultController.xib */; };
+		C41295842823F895003840A9 /* CropResultModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41295802823F895003840A9 /* CropResultModels.swift */; };
+		C41295852823F895003840A9 /* CropResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41295812823F895003840A9 /* CropResultController.swift */; };
+		C412958D282536E5003840A9 /* CropImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412958C282536E5003840A9 /* CropImageView.swift */; };
 		C45CD80228227D9A000108F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CD80128227D9A000108F5 /* AppDelegate.swift */; };
-		C45CD80428227D9A000108F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CD80328227D9A000108F5 /* SceneDelegate.swift */; };
-		C45CD80628227D9A000108F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CD80528227D9A000108F5 /* ViewController.swift */; };
-		C45CD80928227D9A000108F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45CD80728227D9A000108F5 /* Main.storyboard */; };
 		C45CD80B28227D9B000108F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45CD80A28227D9B000108F5 /* Assets.xcassets */; };
 		C45CD80E28227D9B000108F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45CD80C28227D9B000108F5 /* LaunchScreen.storyboard */; };
+		C4C08C732822F80800DEA0C2 /* CropperModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C08C6D2822F80800DEA0C2 /* CropperModels.swift */; };
+		C4C08C742822F80800DEA0C2 /* CropperController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C08C6E2822F80800DEA0C2 /* CropperController.swift */; };
+		C4C08C752822F80800DEA0C2 /* CropperPeresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C08C6F2822F80800DEA0C2 /* CropperPeresenter.swift */; };
+		C4C08C762822F80800DEA0C2 /* CropperController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C08C702822F80800DEA0C2 /* CropperController.xib */; };
+		C4C08C782822F80800DEA0C2 /* CroppFlowRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C08C722822F80800DEA0C2 /* CroppFlowRouter.swift */; };
+		C4C08C7B2822F9D700DEA0C2 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C08C7A2822F9D700DEA0C2 /* BaseController.swift */; };
+		C4C08C7E2822FA0100DEA0C2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C08C7D2822FA0100DEA0C2 /* Extensions.swift */; };
+		C4C08C832823045800DEA0C2 /* BasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C08C822823045800DEA0C2 /* BasePresenterProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C412957C2823F3A2003840A9 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		C412957E2823F895003840A9 /* CropResultPeresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropResultPeresenter.swift; sourceTree = "<group>"; };
+		C412957F2823F895003840A9 /* CropResultController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CropResultController.xib; sourceTree = "<group>"; };
+		C41295802823F895003840A9 /* CropResultModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropResultModels.swift; sourceTree = "<group>"; };
+		C41295812823F895003840A9 /* CropResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropResultController.swift; sourceTree = "<group>"; };
+		C412958C282536E5003840A9 /* CropImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropImageView.swift; sourceTree = "<group>"; };
 		C45CD7FE28227D9A000108F5 /* pdfFiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdfFiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45CD80128227D9A000108F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C45CD80328227D9A000108F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C45CD80528227D9A000108F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C45CD80828227D9A000108F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C45CD80A28227D9B000108F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45CD80D28227D9B000108F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45CD80F28227D9B000108F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C08C6D2822F80800DEA0C2 /* CropperModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropperModels.swift; sourceTree = "<group>"; };
+		C4C08C6E2822F80800DEA0C2 /* CropperController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropperController.swift; sourceTree = "<group>"; };
+		C4C08C6F2822F80800DEA0C2 /* CropperPeresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropperPeresenter.swift; sourceTree = "<group>"; };
+		C4C08C702822F80800DEA0C2 /* CropperController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CropperController.xib; sourceTree = "<group>"; };
+		C4C08C722822F80800DEA0C2 /* CroppFlowRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CroppFlowRouter.swift; sourceTree = "<group>"; };
+		C4C08C7A2822F9D700DEA0C2 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		C4C08C7D2822FA0100DEA0C2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C4C08C822823045800DEA0C2 /* BasePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenterProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C412958B282536C8003840A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C412958C282536E5003840A9 /* CropImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C45CD7F528227D9A000108F5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +86,138 @@
 		C45CD80028227D9A000108F5 /* pdfFiller */ = {
 			isa = PBXGroup;
 			children = (
-				C45CD80128227D9A000108F5 /* AppDelegate.swift */,
-				C45CD80328227D9A000108F5 /* SceneDelegate.swift */,
-				C45CD80528227D9A000108F5 /* ViewController.swift */,
-				C45CD80728227D9A000108F5 /* Main.storyboard */,
-				C45CD80A28227D9B000108F5 /* Assets.xcassets */,
-				C45CD80C28227D9B000108F5 /* LaunchScreen.storyboard */,
-				C45CD80F28227D9B000108F5 /* Info.plist */,
+				C4C08C642822F47E00DEA0C2 /* Resources */,
+				C4C08C632822F47600DEA0C2 /* Sources */,
 			);
 			path = pdfFiller;
+			sourceTree = "<group>";
+		};
+		C4C08C622822F43E00DEA0C2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C412958B282536C8003840A9 /* Views */,
+				C4C08C812823043A00DEA0C2 /* Protocols */,
+				C4C08C792822F9A800DEA0C2 /* Base */,
+				C4C08C6C2822F7B500DEA0C2 /* Routers */,
+				C4C08C6B2822F64500DEA0C2 /* Launch */,
+				C4C08C6A2822F63700DEA0C2 /* CropResult */,
+				C4C08C692822F5EB00DEA0C2 /* Cropper */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C4C08C632822F47600DEA0C2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C4C08C7C2822F9F000DEA0C2 /* Extensions */,
+				C4C08C682822F57100DEA0C2 /* Services */,
+				C4C08C652822F4A000DEA0C2 /* Application */,
+				C4C08C622822F43E00DEA0C2 /* Modules */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C4C08C642822F47E00DEA0C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4C08C672822F4CA00DEA0C2 /* Plists */,
+				C4C08C662822F4C000DEA0C2 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C4C08C652822F4A000DEA0C2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C45CD80128227D9A000108F5 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C4C08C662822F4C000DEA0C2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C45CD80A28227D9B000108F5 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C4C08C672822F4CA00DEA0C2 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				C45CD80F28227D9B000108F5 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		C4C08C682822F57100DEA0C2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C4C08C692822F5EB00DEA0C2 /* Cropper */ = {
+			isa = PBXGroup;
+			children = (
+				C4C08C6E2822F80800DEA0C2 /* CropperController.swift */,
+				C4C08C702822F80800DEA0C2 /* CropperController.xib */,
+				C4C08C6D2822F80800DEA0C2 /* CropperModels.swift */,
+				C4C08C6F2822F80800DEA0C2 /* CropperPeresenter.swift */,
+			);
+			path = Cropper;
+			sourceTree = "<group>";
+		};
+		C4C08C6A2822F63700DEA0C2 /* CropResult */ = {
+			isa = PBXGroup;
+			children = (
+				C41295812823F895003840A9 /* CropResultController.swift */,
+				C412957F2823F895003840A9 /* CropResultController.xib */,
+				C41295802823F895003840A9 /* CropResultModels.swift */,
+				C412957E2823F895003840A9 /* CropResultPeresenter.swift */,
+			);
+			path = CropResult;
+			sourceTree = "<group>";
+		};
+		C4C08C6B2822F64500DEA0C2 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				C45CD80C28227D9B000108F5 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		C4C08C6C2822F7B500DEA0C2 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				C4C08C722822F80800DEA0C2 /* CroppFlowRouter.swift */,
+				C412957C2823F3A2003840A9 /* AppRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		C4C08C792822F9A800DEA0C2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C4C08C7A2822F9D700DEA0C2 /* BaseController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C4C08C7C2822F9F000DEA0C2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C4C08C7D2822FA0100DEA0C2 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C4C08C812823043A00DEA0C2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C4C08C822823045800DEA0C2 /* BasePresenterProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41295832823F895003840A9 /* CropResultController.xib in Resources */,
+				C4C08C762822F80800DEA0C2 /* CropperController.xib in Resources */,
 				C45CD80E28227D9B000108F5 /* LaunchScreen.storyboard in Resources */,
 				C45CD80B28227D9B000108F5 /* Assets.xcassets in Resources */,
-				C45CD80928227D9A000108F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +292,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45CD80628227D9A000108F5 /* ViewController.swift in Sources */,
+				C412958D282536E5003840A9 /* CropImageView.swift in Sources */,
+				C41295852823F895003840A9 /* CropResultController.swift in Sources */,
+				C4C08C742822F80800DEA0C2 /* CropperController.swift in Sources */,
+				C41295822823F895003840A9 /* CropResultPeresenter.swift in Sources */,
+				C4C08C7E2822FA0100DEA0C2 /* Extensions.swift in Sources */,
+				C4C08C752822F80800DEA0C2 /* CropperPeresenter.swift in Sources */,
+				C41295842823F895003840A9 /* CropResultModels.swift in Sources */,
+				C4C08C782822F80800DEA0C2 /* CroppFlowRouter.swift in Sources */,
+				C4C08C732822F80800DEA0C2 /* CropperModels.swift in Sources */,
 				C45CD80228227D9A000108F5 /* AppDelegate.swift in Sources */,
-				C45CD80428227D9A000108F5 /* SceneDelegate.swift in Sources */,
+				C4C08C832823045800DEA0C2 /* BasePresenterProtocol.swift in Sources */,
+				C412957D2823F3A2003840A9 /* AppRouter.swift in Sources */,
+				C4C08C7B2822F9D700DEA0C2 /* BaseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C45CD80728227D9A000108F5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C45CD80828227D9A000108F5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C45CD80C28227D9B000108F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,12 +443,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4M8433DH3X;
+				DEVELOPMENT_TEAM = 29HPKUAB44;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"CI_SILENCE_GL_DEPRECATION=1",
+					"GLES_SILENCE_DEPRECATION=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = pdfFiller/Info.plist;
+				INFOPLIST_FILE = pdfFiller/Resources/Plists/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = pdfFiller;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,11 +462,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kostilal.pdfFiller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uaprom.pdfFiller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,12 +477,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4M8433DH3X;
+				DEVELOPMENT_TEAM = 29HPKUAB44;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"GLES_SILENCE_DEPRECATION=1",
+					"CI_SILENCE_GL_DEPRECATION=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = pdfFiller/Info.plist;
+				INFOPLIST_FILE = pdfFiller/Resources/Plists/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = pdfFiller;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,11 +495,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kostilal.pdfFiller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uaprom.pdfFiller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
