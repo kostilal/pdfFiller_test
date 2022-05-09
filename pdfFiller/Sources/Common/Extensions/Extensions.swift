@@ -16,28 +16,29 @@ extension NSObject {
 
 extension UIImage {
     var flattened: UIImage? {
-        let ciImage = CIImage(image: self)!
-
-        guard let openGLContext = EAGLContext(api: .openGLES2) else { return nil }
+        guard let ciImage = CIImage(image: self),
+              let openGLContext = EAGLContext(api: .openGLES2) else { return nil }
         
         let ciContext = CIContext(eaglContext: openGLContext)
-        let detector = CIDetector(ofType: CIDetectorTypeRectangle,
-                                  context: ciContext,
-                                  options: [CIDetectorAccuracy: CIDetectorAccuracyHigh])!
+        
+        guard let detector = CIDetector(ofType: CIDetectorTypeRectangle,
+                                        context: ciContext,
+                                        options: [CIDetectorAccuracy: CIDetectorAccuracyHigh]),
+              let rect = detector.features(in: ciImage).first as? CIRectangleFeature,
+              let perspectiveCorrection = CIFilter(name: "CIPerspectiveCorrection") else { return nil }
 
-        guard let rect = detector.features(in: ciImage).first as? CIRectangleFeature else { return nil }
-
-        let perspectiveCorrection = CIFilter(name: "CIPerspectiveCorrection")!
         perspectiveCorrection.setValue(CIVector(cgPoint: rect.topLeft), forKey: "inputTopLeft")
         perspectiveCorrection.setValue(CIVector(cgPoint: rect.topRight), forKey: "inputTopRight")
         perspectiveCorrection.setValue(CIVector(cgPoint: rect.bottomRight), forKey: "inputBottomRight")
-        perspectiveCorrection.setValue(CIVector(cgPoint :rect.bottomLeft), forKey: "inputBottomLeft")
+        perspectiveCorrection.setValue(CIVector(cgPoint: rect.bottomLeft), forKey: "inputBottomLeft")
         perspectiveCorrection.setValue(ciImage, forKey: kCIInputImageKey)
 
         if let output = perspectiveCorrection.outputImage,
             let cgImage = ciContext.createCGImage(output, from: output.extent) {
             
-            return UIImage(cgImage: cgImage, scale: scale, orientation: imageOrientation)
+            return UIImage(cgImage: cgImage,
+                           scale: scale,
+                           orientation: imageOrientation)
         }
 
         return nil
