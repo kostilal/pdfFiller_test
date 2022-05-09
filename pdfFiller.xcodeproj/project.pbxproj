@@ -110,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				C4C08C7C2822F9F000DEA0C2 /* Extensions */,
-				C4C08C682822F57100DEA0C2 /* Services */,
 				C4C08C652822F4A000DEA0C2 /* Application */,
 				C4C08C622822F43E00DEA0C2 /* Modules */,
 			);
@@ -148,13 +147,6 @@
 				C45CD80F28227D9B000108F5 /* Info.plist */,
 			);
 			path = Plists;
-			sourceTree = "<group>";
-		};
-		C4C08C682822F57100DEA0C2 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		C4C08C692822F5EB00DEA0C2 /* Cropper */ = {
